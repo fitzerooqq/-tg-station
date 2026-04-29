@@ -15,7 +15,7 @@ SUBSYSTEM_DEF(bitrunning)
 		all_domains += new path()
 
 /// Compiles a list of available domains.
-/datum/controller/subsystem/bitrunning/proc/get_available_domains(scanner_tier, points)
+/datum/controller/subsystem/bitrunning/proc/get_available_domains(scanner_tier, points, bitrunning_network)
 	var/list/levels = list()
 
 	for(var/datum/lazy_template/virtual_domain/domain as anything in all_domains)
@@ -23,7 +23,9 @@ SUBSYSTEM_DEF(bitrunning)
 			continue
 		var/can_view = domain.can_view_name(scanner_tier, points)
 		var/can_view_reward = domain.can_view_reward(scanner_tier, points)
-
+		if(bitrunning_network == BITRUNNER_DOMAIN_SECURITY)
+			can_view = TRUE
+			can_view_reward = TRUE
 		UNTYPED_LIST_ADD(levels, list(
 			"announce_ghosts" = domain.announce_to_ghosts,
 			"cost" = domain.cost,
@@ -33,7 +35,7 @@ SUBSYSTEM_DEF(bitrunning)
 			"is_modular" = domain.is_modular,
 			"has_secondary_objectives" = counterlist_sum(domain.secondary_loot) ? TRUE : FALSE,
 			"name" = can_view ? domain.name : REDACTED,
-			"reward" = can_view_reward ? domain.reward_points : REDACTED,
+			"reward" = can_view_reward ? domain.reward_points : REDACTED
 		))
 
 	return levels

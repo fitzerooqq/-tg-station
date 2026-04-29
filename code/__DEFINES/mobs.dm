@@ -201,6 +201,7 @@
 #define SPECIES_ZOMBIE_INFECTIOUS_MINDLESS "mindless_memezombie"
 #define SPECIES_ZOMBIE_KROKODIL "krokodil_zombie"
 #define SPECIES_VOIDWALKER "voidwalker"
+#define SPECIES_PRISONER "prisoner"
 
 // Like species IDs, but not specifically attached a species.
 #define BODYPART_ID_ALIEN "alien"

@@ -59,3 +59,6 @@
 ///from /datum/sprite_editor_workspace/is_valid_color(): (color)
 #define COMSIG_SPRITE_EDITOR_VALIDATE_COLOR "sprite_editor_validate_color"
 	#define COLOR_IS_INVALID (1<<0)
+
+/// From /datum/looping_sound/proc/sound_loop: ()
+#define COMSIG_SOUND_LOOPED "comsig_sound_looped"
