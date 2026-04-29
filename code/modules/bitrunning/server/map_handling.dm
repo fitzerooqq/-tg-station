@@ -180,7 +180,7 @@
 
 			new /obj/structure/hololadder(tile)
 
-	if(!length(exit_turfs))
+	if(!length(exit_turfs) && !skip_requirements)
 		CRASH("Failed to find exit turfs on generated domain.")
 	if(!length(goal_turfs) && !skip_requirements)
 		CRASH("Failed to find send turfs on generated domain.")
