@@ -76,11 +76,10 @@
 		var/obj/structure/closet/crate/secure/bitrunning/decrypted/reward_cache = new(src, generated_domain, bonus)
 		reward_cache.manifest = WEAKREF(certificate)
 		reward_cache.update_appearance()
-
-	if(can_generate_tech_disk(grade))
-		SSblackbox.record_feedback("tally", "bitrunning_bepis_rewarded", 1, generated_domain.key)
-		new /obj/item/disk/design_disk/bepis/remove_tech(reward_cache)
-		generated_domain.disk_reward_spawned = TRUE
+		if(can_generate_tech_disk(grade))
+			SSblackbox.record_feedback("tally", "bitrunning_bepis_rewarded", 1, generated_domain.key)
+			new /obj/item/disk/design_disk/bepis/remove_tech(reward_cache)
+			generated_domain.disk_reward_spawned = TRUE
 
 		chosen_forge.start_to_spawn(reward_cache)
 	return TRUE

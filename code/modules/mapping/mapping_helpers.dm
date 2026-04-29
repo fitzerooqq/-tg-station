@@ -1543,7 +1543,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_atoms_ontop)
 
 /obj/effect/mapping_helpers/atom_injector/bloody_my_shit_up/inject(atom/target)
 	if(!blood_dna)
-		blood_dna = list("Unknown DNA" = random_blood_type())
+		blood_dna = list("Unknown DNA" = random_human_blood_type())
 	target.add_blood_DNA(blood_dna)
 
 
