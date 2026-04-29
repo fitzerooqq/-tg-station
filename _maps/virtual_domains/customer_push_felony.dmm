@@ -121,7 +121,7 @@
 /turf/open/floor/plating,
 /area/virtual_domain/fullbright)
 "jh" = (
-/obj/effect/decal/cleanable/blood/oil/streak,
+/obj/effect/decal/cleanable/blood/splatter/oil,
 /turf/open/floor/iron/smooth,
 /area/virtual_domain/fullbright)
 "jY" = (

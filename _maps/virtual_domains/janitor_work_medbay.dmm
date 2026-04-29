@@ -56,11 +56,11 @@
 /obj/effect/turf_decal/trimline/blue/filled/corner{
 	dir = 8
 	},
-/obj/item/stack/sticky_tape/surgical{
+/obj/item/stack/medical/wrap/sticky_tape/surgical{
 	pixel_x = -9;
 	pixel_y = 12
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/vomit,
@@ -85,7 +85,7 @@
 	},
 /obj/effect/decal/cleanable/glass,
 /obj/effect/decal/cleanable/blood/splatter,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 8
 	},
 /turf/open/floor/iron/white,
@@ -165,7 +165,7 @@
 	pixel_x = -8;
 	pixel_y = 7
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 8
 	},
 /turf/open/floor/iron/white,
@@ -205,7 +205,7 @@
 /area/virtual_domain/fullbright)
 "lr" = (
 /obj/structure/frame,
-/obj/item/circuitboard/machine/vending,
+/obj/item/circuitboard/machine/vendor,
 /obj/item/stack/cable_coil{
 	amount = 2
 	},
@@ -264,7 +264,7 @@
 	pixel_x = 8;
 	pixel_y = 3
 	},
-/obj/item/stack/medical/gauze{
+/obj/item/stack/medical/wrap/gauze{
 	pixel_x = 8;
 	amount = 1
 	},
@@ -295,7 +295,7 @@
 	dir = 10
 	},
 /obj/effect/turf_decal/tile/blue/fourcorners,
-/obj/item/stack/medical/gauze{
+/obj/item/stack/medical/wrap/gauze{
 	pixel_x = -2;
 	pixel_y = 12
 	},
@@ -331,7 +331,7 @@
 "qJ" = (
 /obj/structure/table/reinforced/rglass,
 /obj/item/stack/medical/suture,
-/obj/item/stack/medical/gauze{
+/obj/item/stack/medical/wrap/gauze{
 	pixel_x = -2;
 	pixel_y = 12
 	},
@@ -348,34 +348,34 @@
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 1
 	},
-/obj/item/reagent_containers/pill{
+/obj/item/storage/pill_bottle{
 	pixel_y = -14;
 	pixel_x = 9
 	},
-/obj/item/reagent_containers/pill{
+/obj/item/storage/pill_bottle{
 	pixel_y = -6
 	},
-/obj/item/reagent_containers/pill{
+/obj/item/storage/pill_bottle{
 	pixel_y = 2;
 	pixel_x = 5
 	},
-/obj/item/reagent_containers/pill{
+/obj/item/storage/pill_bottle{
 	pixel_y = 7;
 	pixel_x = -3
 	},
-/obj/item/reagent_containers/pill{
+/obj/item/storage/pill_bottle{
 	pixel_y = -1;
 	pixel_x = -6
 	},
-/obj/item/reagent_containers/pill{
+/obj/item/storage/pill_bottle{
 	pixel_y = -7;
 	pixel_x = -6
 	},
-/obj/item/reagent_containers/pill{
+/obj/item/storage/pill_bottle{
 	pixel_y = -5;
 	pixel_x = -11
 	},
-/obj/item/reagent_containers/pill{
+/obj/item/storage/pill_bottle{
 	pixel_y = 5;
 	pixel_x = -11
 	},
@@ -427,7 +427,7 @@
 /turf/open/floor/iron/white,
 /area/virtual_domain/fullbright)
 "vB" = (
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/blood,
@@ -440,7 +440,7 @@
 /area/virtual_domain/fullbright)
 "wl" = (
 /obj/structure/table/reinforced/rglass,
-/obj/item/stack/medical/gauze{
+/obj/item/stack/medical/wrap/gauze{
 	pixel_x = -5;
 	pixel_y = 13
 	},
@@ -476,7 +476,7 @@
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 5
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/blood,
@@ -597,7 +597,7 @@
 /area/virtual_domain/fullbright)
 "Bi" = (
 /obj/effect/decal/cleanable/blood,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10
 	},
 /obj/effect/decal/cleanable/blood/tracks{
@@ -611,7 +611,7 @@
 /obj/effect/turf_decal/trimline/blue/filled/corner{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/blood/tracks{
@@ -629,7 +629,7 @@
 /obj/effect/decal/cleanable/blood/hitsplatter{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10
 	},
 /obj/effect/decal/cleanable/blood/tracks{
@@ -652,7 +652,7 @@
 /turf/open/floor/iron/white,
 /area/virtual_domain/fullbright)
 "DH" = (
-/obj/effect/decal/cleanable/blood/xeno/xsplatter,
+/obj/effect/decal/cleanable/blood/splatter/xeno,
 /turf/open/floor/iron/white,
 /area/virtual_domain/fullbright)
 "DI" = (
@@ -725,7 +725,7 @@
 /turf/open/floor/iron/white,
 /area/virtual_domain/fullbright)
 "FK" = (
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 8
 	},
 /turf/open/floor/iron/white,
@@ -733,15 +733,15 @@
 "FS" = (
 /obj/structure/table_frame,
 /obj/item/shard,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 5
 	},
-/obj/item/computer_disk/medical{
+/obj/item/disk/computer/medical{
 	pixel_x = 3
 	},
 /obj/item/toy/figure/cmo,
 /obj/effect/decal/cleanable/glass,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 8
 	},
 /obj/machinery/newscaster/directional/south,
@@ -799,7 +799,7 @@
 	pixel_x = 5;
 	pixel_y = -10
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 8
 	},
 /obj/machinery/light/directional/north,
@@ -827,7 +827,7 @@
 /turf/open/floor/iron/white,
 /area/virtual_domain/fullbright)
 "Lr" = (
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10
 	},
 /obj/effect/decal/cleanable/blood/tracks{
@@ -858,7 +858,7 @@
 /turf/open/space/basic,
 /area/virtual_domain/fullbright)
 "MR" = (
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10
 	},
 /obj/effect/decal/cleanable/blood/tracks{
@@ -888,7 +888,7 @@
 /turf/open/floor/iron/white,
 /area/virtual_domain/fullbright)
 "PJ" = (
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 6
 	},
 /obj/effect/decal/cleanable/blood/xeno,
@@ -898,7 +898,7 @@
 /turf/closed/wall/mineral/silver,
 /area/virtual_domain/fullbright)
 "Qn" = (
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 6
 	},
 /turf/open/floor/iron/white,
@@ -927,19 +927,19 @@
 /obj/effect/turf_decal/trimline/blue/filled/corner{
 	dir = 1
 	},
-/obj/item/reagent_containers/pill/patch/libital{
+/obj/item/reagent_containers/applicator/patch/libital{
 	pixel_x = -11;
 	pixel_y = -3
 	},
-/obj/item/reagent_containers/pill/patch/libital{
+/obj/item/reagent_containers/applicator/patch/libital{
 	pixel_x = 8;
 	pixel_y = 5
 	},
-/obj/item/reagent_containers/pill/patch/libital{
+/obj/item/reagent_containers/applicator/patch/libital{
 	pixel_x = 6;
 	pixel_y = -3
 	},
-/obj/item/reagent_containers/pill/patch/libital{
+/obj/item/reagent_containers/applicator/patch/libital{
 	pixel_x = 1;
 	pixel_y = 2
 	},
@@ -989,13 +989,13 @@
 /obj/item/shard,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/glass,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 8
 	},
 /turf/open/floor/iron/white,
 /area/virtual_domain/fullbright)
 "Th" = (
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/blood/tracks{
@@ -1097,7 +1097,7 @@
 /area/virtual_domain/fullbright)
 "Xf" = (
 /obj/effect/decal/cleanable/blood/footprints,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10
 	},
 /obj/effect/decal/cleanable/blood/tracks{

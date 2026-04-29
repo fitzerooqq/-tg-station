@@ -330,7 +330,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 8;
 	pixel_x = 1;
 	pixel_y = 12
@@ -415,7 +415,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 5
 	},
 /turf/open/floor/wood/large,
@@ -980,7 +980,7 @@
 	dir = 1
 	},
 /obj/effect/mob_spawn/corpse/human/syndicatestormtrooper,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10;
 	pixel_x = -4;
 	pixel_y = -8
@@ -991,7 +991,7 @@
 /obj/effect/turf_decal/siding/wood/end{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 9;
 	pixel_x = -6;
 	pixel_y = 4
@@ -1022,7 +1022,7 @@
 	dir = 8
 	},
 /obj/effect/mob_spawn/corpse/human/syndicatecommando,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10;
 	pixel_x = -2;
 	pixel_y = 7
@@ -1221,7 +1221,7 @@
 /area/virtual_domain/fullbright)
 "Ut" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	pixel_x = -2;
 	pixel_y = -6
 	},
@@ -1246,8 +1246,8 @@
 /area/virtual_domain/fullbright)
 "Vr" = (
 /obj/item/storage/box/handcuffs,
-/obj/item/ammo_box/a357,
-/obj/item/ammo_box/a357,
+/obj/item/ammo_box/speedloader/c357,
+/obj/item/ammo_box/speedloader/c357,
 /obj/structure/table/reinforced,
 /obj/machinery/firealarm/directional/south,
 /obj/effect/turf_decal/stripes/line{

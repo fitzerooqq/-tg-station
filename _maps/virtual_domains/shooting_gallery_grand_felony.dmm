@@ -423,7 +423,7 @@
 /area/virtual_domain/fullbright)
 "Pd" = (
 /obj/structure/alien/weeds,
-/obj/item/stack/medical/gauze/improvised,
+/obj/item/stack/medical/wrap/gauze/improvised,
 /turf/open/misc/asteroid/moon,
 /area/virtual_domain/fullbright)
 "QN" = (
