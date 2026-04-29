@@ -230,7 +230,7 @@
 /obj/effect/turf_decal/weather/sand{
 	dir = 9
 	},
-/obj/effect/decal/cleanable/oil/slippery,
+/obj/effect/decal/cleanable/blood/oil/slippery,
 /obj/bitrunning/customer_speech,
 /turf/open/misc/beach/sand,
 /area/virtual_domain/fullbright)
@@ -383,7 +383,7 @@
 /obj/effect/turf_decal/weather/sand{
 	dir = 5
 	},
-/obj/effect/decal/cleanable/oil/slippery,
+/obj/effect/decal/cleanable/blood/oil/slippery,
 /obj/effect/spawner/random/trash,
 /obj/bitrunning/customer_speech,
 /turf/open/misc/beach/sand,
@@ -528,7 +528,7 @@
 /obj/effect/turf_decal/weather/sand{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/oil/slippery,
+/obj/effect/decal/cleanable/blood/oil/slippery,
 /obj/bitrunning/customer_speech,
 /turf/open/misc/beach/sand,
 /area/virtual_domain/fullbright)
@@ -1146,7 +1146,7 @@
 /obj/effect/turf_decal/weather/sand{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/oil/slippery,
+/obj/effect/decal/cleanable/blood/oil/slippery,
 /obj/bitrunning/customer_speech,
 /turf/open/misc/beach/sand,
 /area/virtual_domain/fullbright)

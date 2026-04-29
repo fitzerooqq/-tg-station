@@ -200,7 +200,7 @@
 	},
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /obj/machinery/light/directional/east,
-/obj/effect/decal/cleanable/xenoblood/xgibs,
+/obj/effect/decal/cleanable/blood/gibs/xeno,
 /turf/open/floor/iron/white,
 /area/virtual_domain/fullbright)
 "lr" = (
@@ -239,8 +239,8 @@
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 6
 	},
-/obj/effect/decal/cleanable/xenoblood,
-/obj/effect/decal/cleanable/xenoblood/xgibs/torso,
+/obj/effect/decal/cleanable/blood/xeno,
+/obj/effect/decal/cleanable/blood/gibs/xeno/torso,
 /turf/open/floor/iron/white,
 /area/virtual_domain/fullbright)
 "np" = (
@@ -559,7 +559,7 @@
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 6
 	},
-/obj/effect/decal/cleanable/xenoblood/xgibs/core,
+/obj/effect/decal/cleanable/blood/gibs/xeno/core,
 /turf/open/floor/iron/white,
 /area/virtual_domain/fullbright)
 "zF" = (
@@ -621,7 +621,7 @@
 /turf/open/floor/iron/white,
 /area/virtual_domain/fullbright)
 "BQ" = (
-/obj/effect/decal/cleanable/xenoblood/xgibs,
+/obj/effect/decal/cleanable/blood/gibs/xeno,
 /turf/open/floor/iron/white,
 /area/virtual_domain/fullbright)
 "Ca" = (
@@ -652,7 +652,7 @@
 /turf/open/floor/iron/white,
 /area/virtual_domain/fullbright)
 "DH" = (
-/obj/effect/decal/cleanable/xenoblood/xsplatter,
+/obj/effect/decal/cleanable/blood/xeno/xsplatter,
 /turf/open/floor/iron/white,
 /area/virtual_domain/fullbright)
 "DI" = (
@@ -891,7 +891,7 @@
 /obj/effect/decal/cleanable/blood/trails{
 	dir = 6
 	},
-/obj/effect/decal/cleanable/xenoblood,
+/obj/effect/decal/cleanable/blood/xeno,
 /turf/open/floor/iron/white,
 /area/virtual_domain/fullbright)
 "PL" = (
@@ -1026,7 +1026,7 @@
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /obj/effect/decal/cleanable/blood,
 /obj/item/surgicaldrill,
-/obj/effect/mob_spawn/corpse/human/security,
+/obj/effect/mob_spawn/corpse/human/secoff,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/iron/white,
 /area/virtual_domain/fullbright)
@@ -1037,12 +1037,12 @@
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 1
 	},
-/obj/effect/mob_spawn/corpse/human/security{
+/obj/effect/mob_spawn/corpse/human/secoff{
 	brute_damage = 500;
 	pixel_x = 5;
 	pixel_y = 6
 	},
-/obj/effect/mob_spawn/corpse/human/security{
+/obj/effect/mob_spawn/corpse/human/secoff{
 	brute_damage = 500
 	},
 /obj/machinery/light/directional/north,
@@ -1132,7 +1132,7 @@
 "YF" = (
 /obj/effect/turf_decal/siding/blue,
 /obj/effect/turf_decal/trimline/blue/filled/line,
-/obj/effect/decal/cleanable/xenoblood/xgibs/larva,
+/obj/effect/decal/cleanable/blood/gibs/xeno/larva,
 /turf/open/floor/iron/white,
 /area/virtual_domain/fullbright)
 "YO" = (

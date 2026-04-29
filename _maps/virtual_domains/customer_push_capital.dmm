@@ -204,7 +204,7 @@
 /obj/effect/turf_decal/trimline/dark/line{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/oil/slippery,
+/obj/effect/decal/cleanable/blood/oil/slippery,
 /turf/open/floor/iron/dark/side{
 	dir = 4
 	},
@@ -903,7 +903,7 @@
 /obj/effect/turf_decal/trimline/dark/line{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/oil/slippery,
+/obj/effect/decal/cleanable/blood/oil/slippery,
 /turf/open/floor/iron/dark/side{
 	dir = 8
 	},

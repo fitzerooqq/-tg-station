@@ -319,7 +319,7 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 10
 	},
-/obj/effect/mob_spawn/corpse/human/security,
+/obj/effect/mob_spawn/corpse/human/secoff,
 /turf/open/floor/iron/grimy,
 /area/virtual_domain/fullbright)
 "kW" = (
