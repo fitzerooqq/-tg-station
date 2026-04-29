@@ -50,7 +50,7 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10;
 	pixel_x = -12;
 	pixel_y = -6
@@ -243,12 +243,12 @@
 	pixel_y = 3
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 4;
 	pixel_x = 6;
 	pixel_y = 11
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10;
 	pixel_x = -4;
 	pixel_y = -3
@@ -343,7 +343,7 @@
 	},
 /obj/structure/flora/rock/pile,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 8
 	},
 /obj/effect/mob_spawn/corpse/human,
@@ -460,12 +460,12 @@
 "ch" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 6;
 	pixel_x = 8;
 	pixel_y = -9
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 5;
 	pixel_x = 1;
 	pixel_y = 16
@@ -722,7 +722,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/blood/trails,
+/obj/effect/decal/cleanable/blood/trail,
 /obj/effect/mob_spawn/corpse/human,
 /turf/open/floor/stone,
 /area/virtual_domain/fullbright)
@@ -792,12 +792,12 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/bodypart/head,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10;
 	pixel_x = -8;
 	pixel_y = -4
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 5;
 	pixel_x = 13;
 	pixel_y = 9
@@ -806,7 +806,7 @@
 /area/virtual_domain/fullbright)
 "dF" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 5;
 	pixel_x = 1;
 	pixel_y = 16
@@ -1371,7 +1371,7 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 1;
 	pixel_x = -1;
 	pixel_y = 2
@@ -1552,7 +1552,7 @@
 	pixel_x = 0;
 	pixel_y = 17
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10
 	},
 /turf/open/floor/wood/large,
@@ -2111,7 +2111,7 @@
 	pixel_x = 2;
 	pixel_y = 0
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10;
 	pixel_x = 5;
 	pixel_y = -11
@@ -2171,7 +2171,7 @@
 	pixel_y = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 6
 	},
 /obj/effect/decal/cleanable/ash{
@@ -2368,12 +2368,12 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10;
 	pixel_x = -16;
 	pixel_y = 3
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 9
 	},
 /turf/open/floor/stone,
@@ -2837,7 +2837,7 @@
 	pixel_x = -1;
 	pixel_y = -3
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 5;
 	pixel_x = 11;
 	pixel_y = 9
@@ -3015,7 +3015,7 @@
 	pixel_x = 7;
 	pixel_y = 5
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	pixel_x = 0;
 	pixel_y = -8
 	},
@@ -3026,7 +3026,7 @@
 	pixel_x = -9;
 	pixel_y = 12
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 6;
 	pixel_x = 2;
 	pixel_y = 11
@@ -3042,7 +3042,7 @@
 	dir = 2;
 	icon_state = "ltrails_1"
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10;
 	pixel_x = -16;
 	pixel_y = 3
@@ -3300,7 +3300,7 @@
 	pixel_x = 5;
 	pixel_y = -2
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 5;
 	pixel_x = 16;
 	pixel_y = 10
@@ -3554,7 +3554,7 @@
 	pixel_x = 10;
 	pixel_y = -8
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 6;
 	pixel_x = 8;
 	pixel_y = 3
@@ -3701,7 +3701,7 @@
 	pixel_x = -3;
 	pixel_y = -8
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 4
 	},
 /turf/open/floor/carpet/red,
@@ -3919,7 +3919,7 @@
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10;
 	pixel_x = -8;
 	pixel_y = -4
@@ -3978,12 +3978,12 @@
 	pixel_x = -14;
 	pixel_y = 17
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 5;
 	pixel_x = 16;
 	pixel_y = 10
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/blood/tracks{
@@ -4048,7 +4048,7 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 6
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 6
 	},
 /turf/open/floor/stone,
@@ -4120,7 +4120,7 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 6
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10;
 	pixel_x = -16;
 	pixel_y = 3
@@ -4196,7 +4196,7 @@
 	pixel_x = -10;
 	pixel_y = -8
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	pixel_x = 4;
 	pixel_y = 14
 	},
@@ -4271,7 +4271,7 @@
 	pixel_x = -15;
 	pixel_y = 3
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 1;
 	pixel_x = -1;
 	pixel_y = -8
@@ -4651,7 +4651,7 @@
 	pixel_x = 13;
 	pixel_y = -1
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	pixel_x = -10;
 	pixel_y = 12
 	},
@@ -4738,7 +4738,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 4;
 	pixel_x = 15;
 	pixel_y = 4
@@ -4754,7 +4754,7 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/blood/gibs/old,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 6;
 	pixel_x = -7;
 	pixel_y = 3
@@ -4894,7 +4894,7 @@
 	dir = 1
 	},
 /obj/effect/mob_spawn/corpse/human/cook,
-/obj/effect/decal/cleanable/blood/trails,
+/obj/effect/decal/cleanable/blood/trail,
 /turf/open/floor/stone,
 /area/virtual_domain/fullbright)
 "te" = (
@@ -5313,7 +5313,7 @@
 	pixel_x = 7;
 	pixel_y = 0
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 5;
 	pixel_x = 5;
 	pixel_y = -5
@@ -5404,7 +5404,7 @@
 	pixel_x = 0;
 	pixel_y = 12
 	},
-/obj/item/stack/medical/gauze/improvised{
+/obj/item/stack/medical/wrap/gauze/improvised{
 	pixel_x = -3;
 	pixel_y = -5
 	},
@@ -5606,11 +5606,11 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	pixel_x = 4;
 	pixel_y = 14
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10;
 	pixel_x = -8;
 	pixel_y = -4
@@ -5660,7 +5660,7 @@
 	},
 /obj/effect/turf_decal/siding/wood/corner,
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 8
 	},
 /turf/open/floor/carpet/royalblack,
@@ -5780,7 +5780,7 @@
 "wP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10
 	},
 /obj/item/cultivator/rake{
@@ -5797,10 +5797,10 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 5
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 6;
 	pixel_x = 2;
 	pixel_y = 11
@@ -5970,12 +5970,12 @@
 /turf/open/floor/wood/large,
 /area/virtual_domain/fullbright)
 "xV" = (
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10;
 	pixel_x = -6;
 	pixel_y = 13
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 1;
 	pixel_x = -2;
 	pixel_y = -10
@@ -6104,7 +6104,7 @@
 	dir = 9
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10;
 	pixel_x = -4;
 	pixel_y = -3
@@ -6147,7 +6147,7 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 6
 	},
 /obj/effect/decal/cleanable/blood/tracks{
@@ -6868,7 +6868,7 @@
 	dir = 8
 	},
 /obj/structure/flora/rock/pile/style_2,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 4;
 	pixel_x = 6;
 	pixel_y = 11
@@ -7339,7 +7339,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	pixel_x = 4;
 	pixel_y = 14
 	},
@@ -7636,7 +7636,7 @@
 	},
 /obj/structure/flora/rock/pile/style_2,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10;
 	pixel_x = -7;
 	pixel_y = -5
@@ -7992,12 +7992,12 @@
 	pixel_x = 2;
 	pixel_y = 4
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10;
 	pixel_x = -12;
 	pixel_y = -6
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 5;
 	pixel_x = 11;
 	pixel_y = 9
@@ -8126,12 +8126,12 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 4;
 	pixel_x = 6;
 	pixel_y = 11
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 6;
 	pixel_x = -7;
 	pixel_y = 3
@@ -8400,11 +8400,11 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 5
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	pixel_x = -14;
 	pixel_y = 1
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 1;
 	pixel_x = -3;
 	pixel_y = 10
@@ -8613,7 +8613,7 @@
 	dir = 9
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 4
 	},
 /turf/open/floor/carpet/red,
@@ -9379,7 +9379,7 @@
 	dir = 9
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 5;
 	pixel_x = 11;
 	pixel_y = -5
@@ -9631,7 +9631,7 @@
 	dir = 4
 	},
 /obj/effect/mob_spawn/corpse/human/cook,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 5;
 	pixel_x = 2;
 	pixel_y = -6
@@ -9643,7 +9643,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 6
 	},
 /turf/open/floor/asphalt,
@@ -9686,7 +9686,7 @@
 	},
 /obj/effect/turf_decal/siding/wideplating/dark,
 /obj/effect/turf_decal/siding/thinplating_new/dark,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 4;
 	pixel_x = 6;
 	pixel_y = 11
@@ -9788,7 +9788,7 @@
 	anchored = 1
 	},
 /obj/effect/turf_decal/trimline/dark,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10
 	},
 /turf/open/floor/stone,
@@ -10267,7 +10267,7 @@
 /area/virtual_domain/fullbright)
 "NU" = (
 /obj/structure/flora/bush/fullgrass/style_random,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	pixel_x = -5;
 	pixel_y = -6
 	},
@@ -10451,7 +10451,7 @@
 	},
 /obj/structure/fluff/paper/stack,
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10;
 	pixel_x = -16;
 	pixel_y = 3
@@ -10513,7 +10513,7 @@
 	pixel_x = 0;
 	pixel_y = -7
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 4;
 	pixel_x = 6;
 	pixel_y = 11
@@ -10715,7 +10715,7 @@
 /obj/effect/turf_decal/siding/wood/end{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10;
 	pixel_x = 5;
 	pixel_y = -11
@@ -10727,7 +10727,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10;
 	pixel_x = -8;
 	pixel_y = -4
@@ -10975,7 +10975,7 @@
 	dir = 4
 	},
 /obj/structure/flora/rock/pile/jungle/style_random,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10;
 	pixel_x = -12;
 	pixel_y = -6
@@ -11032,7 +11032,7 @@
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 4;
 	pixel_x = -9;
 	pixel_y = 0
@@ -11682,7 +11682,7 @@
 	},
 /obj/effect/turf_decal/trimline/dark,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 6;
 	pixel_x = -9;
 	pixel_y = 10
@@ -12719,7 +12719,7 @@
 	dir = 9
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 9
 	},
 /turf/open/floor/stone,
@@ -12908,7 +12908,7 @@
 /obj/item/book,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/mapping_helpers/broken_floor,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10;
 	pixel_x = -4;
 	pixel_y = -3
@@ -12922,7 +12922,7 @@
 	},
 /obj/effect/turf_decal/siding/wideplating/dark,
 /obj/effect/turf_decal/siding/thinplating_new/dark,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 1;
 	pixel_x = 3;
 	pixel_y = -9
@@ -13105,7 +13105,7 @@
 	pixel_x = 2;
 	pixel_y = 4
 	},
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	dir = 10;
 	pixel_x = -7;
 	pixel_y = -5
@@ -13212,7 +13212,7 @@
 /area/virtual_domain/fullbright)
 "ZE" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/trails{
+/obj/effect/decal/cleanable/blood/trail{
 	pixel_x = -5;
 	pixel_y = -6
 	},

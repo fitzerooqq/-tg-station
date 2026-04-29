@@ -64,7 +64,7 @@
 /area/virtual_domain/fullbright)
 "fn" = (
 /obj/structure/alien/weeds,
-/obj/effect/decal/cleanable/xenoblood/xgibs,
+/obj/effect/decal/cleanable/blood/gibs/xeno,
 /turf/open/misc/asteroid/moon,
 /area/virtual_domain/fullbright)
 "ia" = (
@@ -96,7 +96,7 @@
 /area/virtual_domain/fullbright)
 "jF" = (
 /obj/structure/alien/weeds,
-/obj/effect/decal/cleanable/xenoblood/xgibs/larva/body,
+/obj/effect/decal/cleanable/blood/gibs/xeno/larva/body,
 /turf/open/misc/asteroid/moon,
 /area/virtual_domain/fullbright)
 "jJ" = (
@@ -410,7 +410,7 @@
 "MU" = (
 /obj/structure/alien/weeds,
 /obj/effect/decal/remains/xeno,
-/obj/effect/decal/cleanable/xenoblood,
+/obj/effect/decal/cleanable/blood/xeno,
 /turf/open/misc/asteroid/moon,
 /area/virtual_domain/fullbright)
 "OY" = (
@@ -423,7 +423,7 @@
 /area/virtual_domain/fullbright)
 "Pd" = (
 /obj/structure/alien/weeds,
-/obj/item/stack/medical/gauze/improvised,
+/obj/item/stack/medical/wrap/gauze/improvised,
 /turf/open/misc/asteroid/moon,
 /area/virtual_domain/fullbright)
 "QN" = (
@@ -442,7 +442,7 @@
 /area/virtual_domain/fullbright)
 "RI" = (
 /obj/structure/alien/weeds,
-/obj/effect/decal/cleanable/xenoblood/xgibs/core,
+/obj/effect/decal/cleanable/blood/gibs/xeno/core,
 /turf/open/misc/asteroid/moon,
 /area/virtual_domain/fullbright)
 "Tu" = (

@@ -17,7 +17,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/xenoblood,
+/obj/effect/decal/cleanable/blood/xeno,
 /turf/open/floor/grass,
 /area/virtual_domain/fullbright)
 "bl" = (
@@ -136,7 +136,7 @@
 /area/virtual_domain/fullbright)
 "hC" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/xenoblood/xgibs/core,
+/obj/effect/decal/cleanable/blood/gibs/xeno/core,
 /obj/structure/fluff/minepost,
 /turf/open/misc/dirt/jungle,
 /area/virtual_domain/fullbright)
@@ -212,7 +212,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner,
-/obj/effect/decal/cleanable/xenoblood,
+/obj/effect/decal/cleanable/blood/xeno,
 /obj/machinery/conveyor/auto/very_fast{
 	dir = 4;
 	alpha = 25
@@ -441,7 +441,7 @@
 /turf/open/floor/mineral/plastitanium,
 /area/virtual_domain/fullbright)
 "zT" = (
-/obj/effect/decal/cleanable/xenoblood/xgibs,
+/obj/effect/decal/cleanable/blood/gibs/xeno,
 /turf/open/misc/dirt/jungle,
 /area/virtual_domain/fullbright)
 "As" = (
@@ -451,7 +451,7 @@
 /turf/closed/wall/mineral/plastitanium,
 /area/virtual_domain/fullbright)
 "Au" = (
-/obj/effect/decal/cleanable/xenoblood/xgibs/larva/body,
+/obj/effect/decal/cleanable/blood/gibs/xeno/larva/body,
 /turf/open/misc/grass/jungle,
 /area/virtual_domain/fullbright)
 "AB" = (
@@ -615,7 +615,7 @@
 /obj/item/ammo_casing{
 	dir = 9
 	},
-/obj/effect/decal/cleanable/xenoblood/xgibs/body,
+/obj/effect/decal/cleanable/blood/gibs/xeno/body,
 /turf/open/floor/mineral/plastitanium,
 /area/virtual_domain/fullbright)
 "Kt" = (
@@ -674,7 +674,7 @@
 /area/virtual_domain/fullbright)
 "Ng" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark,
-/obj/effect/decal/cleanable/xenoblood/xgibs,
+/obj/effect/decal/cleanable/blood/gibs/xeno,
 /obj/machinery/conveyor/auto/very_fast{
 	dir = 4;
 	alpha = 25
@@ -738,7 +738,7 @@
 /turf/open/floor/grass,
 /area/virtual_domain/fullbright)
 "PP" = (
-/obj/effect/decal/cleanable/xenoblood/xgibs/up,
+/obj/effect/decal/cleanable/blood/gibs/xeno/up,
 /turf/open/misc/dirt/jungle,
 /area/virtual_domain/fullbright)
 "Qb" = (
@@ -762,7 +762,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/xenoblood/xgibs/larva,
+/obj/effect/decal/cleanable/blood/gibs/xeno/larva,
 /turf/open/floor/grass{
 	icon_state = "sand"
 	},
@@ -861,7 +861,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/blood/xtracks,
+/obj/effect/decal/cleanable/blood/tracks/xeno,
 /turf/open/floor/grass{
 	icon_state = "sand"
 	},

@@ -26,7 +26,7 @@
 /obj/effect/turf_decal/tile/blue/opposingcorners,
 /obj/effect/turf_decal/tile/blue/opposingcorners,
 /obj/structure/table,
-/obj/item/food/pizza{
+/obj/item/food/pizza/margherita{
 	pixel_y = 6
 	},
 /turf/open/floor/iron/kitchen,
@@ -55,10 +55,9 @@
 /turf/open/floor/iron/kitchen,
 /area/virtual_domain)
 "dN" = (
-/obj/effect/decal/cleanable/confetti,
-/obj/machinery/camera/directional/east{
-	c_tag = "Security Cove"
-	},
+/obj/effect/turf_decal/tile/blue/opposingcorners,
+/obj/effect/turf_decal/tile/blue/opposingcorners,
+/obj/effect/decal/cleanable/blood/tracks/xeno,
 /turf/open/floor/iron/kitchen,
 /area/virtual_domain)
 "dV" = (
@@ -142,7 +141,7 @@
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
 	},
-/obj/machinery/light/very_dim/directional/east,
+/obj/machinery/light/empty/directional/east,
 /turf/open/floor/iron/kitchen,
 /area/virtual_domain)
 "hq" = (
@@ -212,6 +211,7 @@
 /turf/open/floor/iron/kitchen,
 /area/virtual_domain)
 "kL" = (
+/obj/machinery/light/empty/directional/west,
 /obj/item/light/tube/broken,
 /obj/machinery/light/very_dim/directional/west,
 /turf/open/floor/iron/kitchen,
@@ -253,7 +253,7 @@
 /obj/effect/turf_decal/tile/dark_red/opposingcorners,
 /obj/effect/turf_decal/tile/dark_red/opposingcorners,
 /obj/structure/table,
-/obj/item/food/pizza,
+/obj/item/food/pizza/margherita,
 /turf/open/floor/iron/kitchen,
 /area/virtual_domain)
 "mS" = (
@@ -285,7 +285,7 @@
 /obj/structure/closet/gmcloset,
 /obj/effect/turf_decal/tile/blue/opposingcorners,
 /obj/effect/turf_decal/tile/blue/opposingcorners,
-/obj/item/clothing/mask/animal/small/bear/cursed,
+/obj/item/clothing/mask/animal/small/bear,
 /turf/open/floor/iron/kitchen,
 /area/virtual_domain)
 "nX" = (
@@ -306,7 +306,7 @@
 /turf/open/floor/iron/kitchen,
 /area/virtual_domain)
 "pr" = (
-/obj/machinery/light/built/directional/east,
+/obj/machinery/light/empty/directional/east,
 /turf/open/floor/iron/kitchen,
 /area/virtual_domain)
 "pK" = (
@@ -397,7 +397,7 @@
 /turf/open/floor/iron/kitchen,
 /area/virtual_domain)
 "sk" = (
-/obj/machinery/computer/slot_machine,
+/obj/effect/spawner/random/entertainment/slot_machine,
 /turf/open/floor/iron/kitchen,
 /area/virtual_domain)
 "sl" = (
@@ -528,7 +528,7 @@
 /area/virtual_domain)
 "wM" = (
 /obj/item/toy/balloon/heart,
-/obj/machinery/light/built/directional/west,
+/obj/machinery/light/empty/directional/west,
 /obj/structure/fake_stairs/wood{
 	dir = 1
 	},
@@ -652,7 +652,7 @@
 "Ct" = (
 /obj/effect/turf_decal/tile/blue/opposingcorners,
 /obj/effect/turf_decal/tile/blue/opposingcorners,
-/obj/machinery/light/very_dim/directional/east,
+/obj/machinery/light/empty/directional/east,
 /turf/open/floor/iron/kitchen,
 /area/virtual_domain)
 "Dx" = (
@@ -706,7 +706,7 @@
 /area/virtual_domain)
 "Fy" = (
 /obj/effect/decal/cleanable/confetti,
-/obj/machinery/light/built/directional/west,
+/obj/machinery/light/empty/directional/west,
 /obj/structure/fake_stairs/wood,
 /turf/open/floor/iron/kitchen,
 /area/virtual_domain)
@@ -722,10 +722,9 @@
 /turf/open/floor/iron/kitchen,
 /area/virtual_domain)
 "Gn" = (
-/obj/machinery/light/built/directional/east,
-/obj/machinery/camera/directional/east{
-	c_tag = "Kitchen"
-	},
+/obj/machinery/light/empty/directional/east,
+/obj/effect/decal/cleanable/food/tomato_smudge,
+/obj/effect/landmark/bitrunning/cache_spawn,
 /turf/open/floor/iron/kitchen/small,
 /area/virtual_domain)
 "GD" = (
@@ -824,7 +823,7 @@
 "JF" = (
 /obj/effect/turf_decal/tile/blue/opposingcorners,
 /obj/effect/turf_decal/tile/blue/opposingcorners,
-/obj/effect/decal/cleanable/blood/xtracks,
+/obj/effect/decal/cleanable/blood/tracks/xeno,
 /obj/machinery/camera/directional/west{
 	c_tag = "Party Room 1"
 	},
@@ -974,12 +973,13 @@
 /obj/effect/turf_decal/tile/blue/opposingcorners,
 /obj/effect/turf_decal/tile/blue/opposingcorners,
 /obj/item/toy/balloon/heart,
-/obj/machinery/light/very_dim/directional/west,
+/obj/machinery/light/empty/directional/west,
 /turf/open/floor/iron/kitchen,
 /area/virtual_domain)
 "RB" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/machinery/light/empty/directional/west,
 /obj/effect/decal/cleanable/glass/plastitanium,
 /turf/open/floor/iron/kitchen,
 /area/virtual_domain)
@@ -994,6 +994,7 @@
 "SE" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/machinery/light/empty/directional/east,
 /obj/effect/decal/cleanable/glass/plastitanium,
 /obj/machinery/light/very_dim/directional/east,
 /turf/open/floor/iron/kitchen,
@@ -1078,7 +1079,7 @@
 /obj/effect/turf_decal/tile/dark_red/opposingcorners,
 /obj/effect/turf_decal/tile/dark_red/opposingcorners,
 /obj/effect/decal/cleanable/blood/gibs/old,
-/obj/machinery/light/very_dim/directional/west,
+/obj/machinery/light/empty/directional/west,
 /turf/open/floor/iron/kitchen,
 /area/virtual_domain)
 "VJ" = (

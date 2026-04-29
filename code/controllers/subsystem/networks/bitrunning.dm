@@ -2,7 +2,7 @@
 
 SUBSYSTEM_DEF(bitrunning)
 	name = "Bitrunning"
-	flags = SS_NO_FIRE
+	ss_flags = SS_NO_FIRE
 
 	var/list/all_domains = list()
 
@@ -19,12 +19,10 @@ SUBSYSTEM_DEF(bitrunning)
 	var/list/levels = list()
 
 	for(var/datum/lazy_template/virtual_domain/domain as anything in all_domains)
-		if(domain.test_only)
+		if(domain.domain_flags & DOMAIN_TEST_ONLY)
 			continue
-		if(domain.bitrunning_network != bitrunning_network)
-			continue
-		var/can_view = domain.difficulty < scanner_tier && domain.cost <= points + 5
-		var/can_view_reward = domain.difficulty < (scanner_tier + 1) && domain.cost <= points + 3
+		var/can_view = domain.can_view_name(scanner_tier, points)
+		var/can_view_reward = domain.can_view_reward(scanner_tier, points)
 		if(bitrunning_network == BITRUNNER_DOMAIN_SECURITY)
 			can_view = TRUE
 			can_view_reward = TRUE

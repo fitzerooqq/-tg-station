@@ -103,5 +103,5 @@
 
 /obj/machinery/telecomms/relay/preset/auto/bitrunning/Initialize(mapload)
 	. = ..()
-	for(var/obj/machinery/telecomms/telecomms_machine in GLOB.telecomms_list)
-		add_automatic_link(telecomms_machine)
+	for(var/obj/machinery/telecomms/telecomms_machine in GLOB.telecomm_machines)
+		add_new_link(telecomms_machine)

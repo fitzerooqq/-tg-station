@@ -8,6 +8,7 @@
 	icon_living = "orbie"
 	speed = 0
 	maxHealth = 100
+	status_flags = CANPUSH
 	light_on = FALSE
 	light_system = OVERLAY_LIGHT
 	light_range = 6
@@ -25,6 +26,7 @@
 	maximum_survivable_temperature = INFINITY
 	death_message = "fades out of existence!"
 	ai_controller = /datum/ai_controller/basic_controller/orbie
+	damage_coeff = list(BRUTE = 1, BURN = 1, TOX = 1, STAMINA = 0, OXY = 1)
 	///are we happy or not?
 	var/happy_state = FALSE
 	///overlay for our neutral eyes
@@ -61,14 +63,14 @@
 
 /mob/living/basic/orbie/early_melee_attack(atom/target, list/modifiers, ignore_cooldown)
 	. = ..()
-	if(!.)
-		return FALSE
+	if(.)
+		return
 	if(src == target || happy_state || !istype(target))
-		return TRUE
+		return BASIC_MOB_CONTINUE_ATTACK_CHAIN
 
 	toggle_happy_state()
 	addtimer(CALLBACK(src, PROC_REF(toggle_happy_state)), 30 SECONDS)
-	return FALSE
+	return BASIC_MOB_END_ATTACK_CHAIN_COOLDOWN
 
 /mob/living/basic/orbie/proc/on_lights(datum/source)
 	SIGNAL_HANDLER

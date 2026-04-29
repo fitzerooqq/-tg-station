@@ -8,8 +8,8 @@
 	///Timer for the blood mark expiration
 	var/blood_target_reset_timer
 
-	///Has a vote been called for a leader?
-	var/cult_vote_called = FALSE
+	///Has the cult leader passed on their responsibilities to someone else?
+	var/leader_passed_on = FALSE
 	///The cult leader
 	var/datum/antagonist/cult/cult_leader_datum
 	///Has the mass teleport been used yet?
@@ -161,12 +161,16 @@
 	for(var/datum/mind/cultist as anything in members)
 		if(!cultist.current)
 			continue
+
 		if(cultist.current.stat == DEAD || !cultist.current.client)
 			continue
 
 		to_chat(cultist.current, span_bold(span_cult_large("[marker] has marked [blood_target] in \the [target_area] as the cult's top priority, get there immediately!")))
 		SEND_SOUND(cultist.current, sound(SFX_HALLUCINATION_OVER_HERE, 0, 1, 75))
 		cultist.current.client.images += blood_target_image
+		if (cultist.current.hud_used)
+			var/atom/movable/screen/navigate_arrow/arrow = cultist.current.hud_used.add_screen_object(/atom/movable/screen/navigate_arrow, HUD_CULTIST_ARROW, HUD_GROUP_INFO, update_screen = TRUE)
+			arrow.start_effect(get_turf(new_target), COLOR_CULT_RED)
 
 	if(duration != INFINITY)
 		blood_target_reset_timer = addtimer(CALLBACK(src, PROC_REF(unset_blood_target)), duration, TIMER_STOPPABLE)

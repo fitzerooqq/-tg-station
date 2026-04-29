@@ -73,8 +73,13 @@
 		if(isliving(thing)) // so we can mutate them
 			var/mob/living/creature = thing
 
-			if(ismegafauna(creature))
+			if(istype(creature, /mob/living/simple_animal/hostile/megafauna))
 				var/mob/living/simple_animal/hostile/megafauna/boss = creature
+				boss.make_virtual_megafauna()
+				continue
+
+			if(istype(creature, /mob/living/basic/boss))
+				var/mob/living/basic/boss/boss = creature
 				boss.make_virtual_megafauna()
 				continue
 
@@ -115,7 +120,7 @@
 							forced = TRUE,
 							spread_damage = FALSE,
 							wound_bonus = rand(0, 50),
-							bare_wound_bonus = rand(0, 20),
+							exposed_wound_bonus = rand(0, 20),
 							sharpness = pick(list(null, SHARP_EDGED, SHARP_POINTY)),
 							attack_direction = pick(list(NORTH,SOUTH,EAST,WEST,NORTHWEST,NORTHEAST,SOUTHWEST,SOUTHEAST)),
 						)
