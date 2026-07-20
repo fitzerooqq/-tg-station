@@ -133,7 +133,13 @@
 	if(listener_mob.client)
 		listener_mob.client.sound_tokens -= src
 
-	UnregisterSignal(listener_mob, list(COMSIG_QDELETING, SIGNAL_ADDTRAIT(TRAIT_DEAF),SIGNAL_REMOVETRAIT(TRAIT_DEAF)))
+	if(listener_mob.client)
+		listener_mob.client.sound_tokens -= src
+
+	var/list/signals_to_remove = list(SIGNAL_ADDTRAIT(TRAIT_DEAF), SIGNAL_REMOVETRAIT(TRAIT_DEAF))
+	if(source != listener_mob)
+		signals_to_remove += COMSIG_QDELETING
+	UnregisterSignal(listener_mob, signals_to_remove)
 	SEND_SOUND(listener_mob, null_sound)
 
 /datum/sound_token/proc/update_listener(mob/listener_mob, update_sound = TRUE)
