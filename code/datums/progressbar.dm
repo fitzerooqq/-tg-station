@@ -59,7 +59,8 @@
 	RegisterSignal(user, COMSIG_QDELETING, PROC_REF(on_user_delete))
 	RegisterSignal(user, COMSIG_MOB_LOGOUT, PROC_REF(clean_user_client))
 	RegisterSignal(user, COMSIG_MOB_LOGIN, PROC_REF(on_user_login))
-	RegisterSignal(bar_loc, COMSIG_QDELETING, PROC_REF(on_bar_loc_delete))
+	if(bar_loc != user)
+		RegisterSignal(bar_loc, COMSIG_QDELETING, PROC_REF(on_bar_loc_delete))
 
 	if(starting_amount)
 		update(starting_amount)
