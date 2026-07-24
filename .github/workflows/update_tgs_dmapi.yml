@@ -40,8 +40,8 @@ jobs:
              echo "Aucune modification à committer"
            else
              git commit -m 'Mise à jour du TGS DMAPI'
-            git push -f -u origin tgs-dmapi-update
-          fi
+             git push -f -u origin tgs-dmapi-update
+           fi
 
       - name: Generate App Token
         id: app-token-generation
